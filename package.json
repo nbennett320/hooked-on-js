@@ -4,6 +4,7 @@
   "author": {
     "name": "Noah Christian Bennett"
   },
-  "description": "The future of Javascript iteration",
-  "license": "GPLv2"
+  "description": "The future of Javascript iterative loop",
+  "license": "GPLv2",
+  "type": "module"
 }
