@@ -6,10 +6,15 @@
  * @param {Function} fn The function to call on each iteration
  * @module
  */
-export default For = (initialization, condition, updation, fn) => {
+export default (
+  initialization: number, 
+  condition: (n: number) => boolean, 
+  updation: (n: number) => number, 
+  fn: (n: number) => void
+): void => {
   if(condition(initialization)) {
     fn(initialization)
-    For(updation(initialization), condition, updation, fn)
+    useFor(updation(initialization), condition, updation, fn)
   }
   return
 }

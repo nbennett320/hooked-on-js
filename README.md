@@ -1,9 +1,11 @@
-# For.js - the future of JavaScript iterative loops.
+# For hooks - true reactivity in JavaScript.
 
 Example:
 ```js
+import { useFor } from 'hooked-on-js'
+
 let i = 0
-For(i, i => i < 10, i => ++i, i => {
+useFor(i, i => i < 10, i => ++i, i => {
   console.log("In 'For' loop: ", i)
 })
 ```

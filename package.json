@@ -1,10 +1,16 @@
 {
-  "name": "for.js",
+  "name": "hooked-on-js",
   "version": "1.0.0.0.0",
   "author": {
     "name": "Noah Christian Bennett"
   },
   "description": "The future of Javascript iterative loop",
   "license": "GPLv2",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "tsc ./test/test.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
 }
