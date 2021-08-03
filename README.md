@@ -1,4 +1,4 @@
-# For hooks - true reactivity in JavaScript.
+# hooked-on-js - true reactivity in JavaScript.
 
 Example:
 ```js
